@@ -20,10 +20,13 @@ import numpy as np
 X = np.random.random((5,5))
 X
 
-#To get the mean m = X.mean()
+#To get the mean
+m = X.mean()
 m
 
-#To get the sd sd = X.std() sd
+#To get the sd
+sd = X.std()
+sd
 
 #Normalization
 z = X-m/sd
